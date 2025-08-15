@@ -15,7 +15,9 @@ de trabalho flexíveis no Brasil?
 
 # **0. Importação das Bibliotecas, Configuração dos Gráficos e Carregamento do DataSet**
 Iremos usar a linguagem de programação Python, com as bibliotecas Pandas, MatplotLib e Seaborn.
+
 Para garantir que os gráficos sejam visualmente atraentes e de fácil leitura, foram aplicadas algumas configurações de estilo utilizando as bibliotecas matplotlib.pyplot e seaborn. O objetivo dessas configurações é padronizar a aparência dos gráficos e melhorar a sua clareza.
+
 Os dados utilizados nessa Análise foram da pesquisa de 2024-2025 do DataHackers, retirados do [Kaggle](https://www.kaggle.com/datasets/datahackers/state-of-data-brazil-20242025/data)
 
 # **1. Preparação do Terreno.**
@@ -42,7 +44,7 @@ Primeiras 5 linhas abaixo:
 
 Com os dados preparados, nossa primeira pergunta é: qual o tamanho do desalinhamento entre a realidade e o desejo dos profissionais? Um gráfico de barras comparativo nos dará uma visão clara e impactante dessa diferença.
 
-![Comparativo: Modelo de Trabalho Atual vs. Ideal](your_image_link_1_here)
+![Comparativo: Modelo de Trabalho Atual vs. Ideal](impacto_modelo_trabalho/images/comparativo_modelos_trabalho.png)
 
 Este gráfico de barras comparativo mostra a distribuição dos modelos de trabalho atual e ideal entre os profissionais. Ele revela que, embora a maioria já trabalhe nos modelos Remoto (45.7%) e Híbrido (38.0%), a preferência para o cenário ideal se inclina ainda mais para a flexibilidade: o modelo Híbrido é o ideal para 52.1% e o 100% Remoto para 46.0%. A preferência por trabalhar 100% Presencial no cenário ideal é mínima (1.9%), contrastando com os 16.3% que trabalham presencialmente hoje. Isso evidencia que a grande maioria dos profissionais deseja flexibilidade, e há uma clara insatisfação com o modelo 100% presencial.
 
