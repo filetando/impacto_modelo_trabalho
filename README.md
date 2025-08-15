@@ -44,7 +44,7 @@ Primeiras 5 linhas abaixo:
 
 Com os dados preparados, nossa primeira pergunta é: qual o tamanho do desalinhamento entre a realidade e o desejo dos profissionais? Um gráfico de barras comparativo nos dará uma visão clara e impactante dessa diferença.
 
-![Comparativo: Modelo de Trabalho Atual vs. Ideal](impacto_modelo_trabalho/images/comparativo_modelos_trabalho.png)
+![Comparativo: Modelo de Trabalho Atual vs. Ideal](https://github.com/filetando/impacto_modelo_trabalho/blob/main/images/comparativo_modelos_trabalho.png)
 
 Este gráfico de barras comparativo mostra a distribuição dos modelos de trabalho atual e ideal entre os profissionais. Ele revela que, embora a maioria já trabalhe nos modelos Remoto (45.7%) e Híbrido (38.0%), a preferência para o cenário ideal se inclina ainda mais para a flexibilidade: o modelo Híbrido é o ideal para 52.1% e o 100% Remoto para 46.0%. A preferência por trabalhar 100% Presencial no cenário ideal é mínima (1.9%), contrastando com os 16.3% que trabalham presencialmente hoje. Isso evidencia que a grande maioria dos profissionais deseja flexibilidade, e há uma clara insatisfação com o modelo 100% presencial.
 
