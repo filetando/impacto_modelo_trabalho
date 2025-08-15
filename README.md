@@ -1,19 +1,22 @@
 # **O Cabo de Guerra Estratégico que Define o Futuro do Trabalho**
 
-####O cenário profissional pós-pandemia se transformou em um verdadeiro campo de batalha, com um cabo de guerra sendo travado entre duas visões de futuro: de um lado, empresas que defendem o retorno ao escritório como pilar para a cultura e a inovação; de outro, uma força de trabalho que, após experimentar a autonomia, agora valoriza a flexibilidade como um componente não negociável de sua carreira. Para os profissionais de dados no Brasil, essa discussão vai muito além de uma simples preferência de estilo de vida — tornou-se um fator decisivo para a satisfação, produtividade e, crucialmente, para a permanência em um emprego.
+#### O cenário profissional pós-pandemia se transformou em um verdadeiro campo de batalha, com um cabo de guerra sendo travado entre duas visões de futuro: de um lado, empresas que defendem o retorno ao escritório como pilar para a cultura e a inovação; de outro, uma força de trabalho que, após experimentar a autonomia, agora valoriza a flexibilidade como um componente não negociável de sua carreira. Para os profissionais de dados no Brasil, essa discussão vai muito além de uma simples preferência de estilo de vida — tornou-se um fator decisivo para a satisfação, produtividade e, crucialmente, para a permanência em um emprego.
 
-####Ignorar essa tensão é um risco que nenhuma empresa pode se dar ao luxo de correr. A grande questão não é mais se a flexibilidade é importante, mas sim qual o custo de não oferecê-la. Esta análise se propõe a responder a essa pergunta com dados, não com opiniões. Utilizando o abrangente dataset "State of Data Brazil 2024/2025", vamos mergulhar fundo para quantificar a lacuna entre o modelo de trabalho que os profissionais de dados possuem atualmente e aquele que consideram ideal.
+#### Ignorar essa tensão é um risco que nenhuma empresa pode se dar ao luxo de correr. A grande questão não é mais se a flexibilidade é importante, mas sim qual o custo de não oferecê-la. Esta análise se propõe a responder a essa pergunta com dados, não com opiniões. Utilizando o abrangente dataset "State of Data Brazil 2024/2025", vamos mergulhar fundo para quantificar a lacuna entre o modelo de trabalho que os profissionais de dados possuem atualmente e aquele que consideram ideal.
 
-####Nosso objetivo é claro: transformar um debate subjetivo em uma análise de risco de negócio. Ao longo deste estudo, responderemos a três perguntas fundamentais:
+#### Nosso objetivo é claro: transformar um debate subjetivo em uma análise de risco de negócio. Ao longo deste estudo, responderemos a três perguntas fundamentais:
 
 * Qual é o tamanho real do desalinhamento entre a oferta e a demanda por modelos
 de trabalho flexíveis no Brasil?
 * Como esse desalinhamento impacta diretamente a satisfação dos profissionais?
 * Qual é o risco de evasão de talentos que as empresas enfrentam ao impor políticas de retorno ao escritório?
 
-####Prepare-se para uma análise que revela não apenas o que os profissionais querem, mas as consequências estratégicas de suas escolhas para o futuro do mercado de dados no país.
+#### Prepare-se para uma análise que revela não apenas o que os profissionais querem, mas as consequências estratégicas de suas escolhas para o futuro do mercado de dados no país.
 
 # **0. Importação das Bibliotecas, Configuração dos Gráficos e Carregamento do DataSet**
+Iremos usar a linguagem de programação Python, com as bibliotecas Pandas, MatplotLib e Seaborn.
+Para garantir que os gráficos sejam visualmente atraentes e de fácil leitura, foram aplicadas algumas configurações de estilo utilizando as bibliotecas matplotlib.pyplot e seaborn. O objetivo dessas configurações é padronizar a aparência dos gráficos e melhorar a sua clareza.
+Os dados utilizados nessa Análise foram da pesquisa de 2024-2025 do DataHackers, retirados do [Kaggle](https://www.kaggle.com/datasets/datahackers/state-of-data-brazil-20242025/data)
 
 # **1. Preparação do Terreno.**
 
@@ -26,6 +29,7 @@ As principais ações incluem:
 * Conversão da coluna de satisfação (que está em formato TRUE/FALSE) para um formato numérico (1/0), o que nos permitirá calcular taxas de satisfação.
 
 Total de respondentes válidos na análise: 4863
+Primeiras 5 linhas abaixo:
 
       modelo_atual     modelo_ideal  satisfeito_num
 0      100% Remoto          Híbrido               1
