@@ -33,12 +33,13 @@ As principais ações incluem:
 Total de respondentes válidos na análise: 4863
 Primeiras 5 linhas abaixo:
 
-      modelo_atual     modelo_ideal  satisfeito_num
-0      100% Remoto          Híbrido               1
-1  100% Presencial  100% Presencial               1
-2  100% Presencial          Híbrido               0
-3          Híbrido          Híbrido               1
-4      100% Remoto          Híbrido               1
+|       | modelo_atual    | modelo_ideal    |   satisfeito_num |
+|:------|:----------------|:----------------|-----------------:|
+|     0 | 100% Remoto     | Híbrido         |                1 |
+|     1 | 100% Presencial | 100% Presencial |                1 |
+|     2 | 100% Presencial | Híbrido         |                0 |
+|     3 | Híbrido         | Híbrido         |                1 |
+|     4 | 100% Remoto     | Híbrido         |                1 |
 
 # **2. O Cenário Atual vs. O Cenário Ideal - Quantificando a Lacuna**
 
@@ -54,11 +55,11 @@ Este gráfico de barras comparativo mostra a distribuição dos modelos de traba
 * Satisfação: Profissionais que trabalham no modelo que desejam são mais satisfeitos?
 * Retenção: Qual seria a reação dos profissionais que hoje atuam de forma remota ou híbrida se fossem forçados a retornar ao escritório em tempo integral?
 
-![Taxa de Satisfação por Modelo de Trabalho Atual](your_image_link_2_here)
+![Taxa de Satisfação por Modelo de Trabalho Atual](https://github.com/filetando/impacto_modelo_trabalho/blob/main/images/taxa_satisfacao_modelo_trabalho.png)
 
 Este gráfico demonstra uma clara relação entre o modelo de trabalho e a satisfação. Os profissionais que atuam no modelo 100% Remoto reportam a maior taxa de satisfação (75.0%), seguidos pelos que estão no modelo Híbrido (69.0%). Em contraste, a satisfação é significativamente menor entre aqueles que trabalham 100% Presencial (49.7%). Isso sugere que a flexibilidade está diretamente associada a níveis mais altos de satisfação no ambiente de trabalho.
 
-![Reação a um Retorno Obrigatório ao Escritório (Profissionais em modelo Remoto/Híbrido)](your_image_link_3_here)
+![Reação a um Retorno Obrigatório ao Escritório (Profissionais em modelo Remoto/Híbrido)](https://github.com/filetando/impacto_modelo_trabalho/blob/main/images/reacao_retorno_obrigatorio.png)
 
 Este gráfico de pizza apresenta um dado crucial para a retenção de talentos. Entre os profissionais que atualmente trabalham nos modelos remoto ou híbrido, a esmagadora maioria (83,1%) afirma que procuraria outra oportunidade de emprego caso fossem obrigados a retornar ao modelo 100% presencial. Apenas 16,9% declaram que aceitariam o retorno. Isso não é apenas uma preferência de estilo de vida; é um risco de negócio tangível, representando uma potencial perda massiva de talentos.
 
@@ -66,7 +67,7 @@ Este gráfico de pizza apresenta um dado crucial para a retenção de talentos. 
 
 Para entender exatamente onde ocorrem as maiores divergências, podemos criar uma tabela de contingência (ou crosstab). Ela cruza o modelo de trabalho atual com o modelo ideal, mostrando o fluxo de preferências de forma detalhada.
 
-![Matriz de Preferência](your_image_link_4_here)
+![Matriz de Preferência](https://github.com/filetando/impacto_modelo_trabalho/blob/main/images/matriz_preferencia.png)
 
 Estas matrizes detalham as transições de preferência entre os modelos de trabalho atual e ideal. A matriz em porcentagem (normalizada por linha) é particularmente esclarecedora: ela mostra que, mesmo entre aqueles que hoje trabalham 100% Presencial, a vasta maioria (73.4%) preferiria o modelo Híbrido, e uma parcela considerável (19.3%) preferiria o 100% Remoto. Para quem já está no Híbrido, a preferência é majoritariamente por manter o Híbrido (75.1%) ou migrar para o 100% Remoto (23.4%). Entre os 100% Remotos, a grande maioria deseja permanecer Remoto (74.4%). A preferência por retornar ao presencial é residual em todos os grupos.
 
