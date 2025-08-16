@@ -31,6 +31,7 @@ As principais ações incluem:
 * Conversão da coluna de satisfação (que está em formato TRUE/FALSE) para um formato numérico (1/0), o que nos permitirá calcular taxas de satisfação.
 
 Total de respondentes válidos na análise: 4863
+
 Primeiras 5 linhas abaixo:
 
 |       | modelo_atual    | modelo_ideal    |   satisfeito_num |
